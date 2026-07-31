@@ -3,7 +3,7 @@ name: Static code analysis
 on:
   push:
     branches:
-      - develop
+      - monarchic
   workflow_dispatch:
 
 concurrency:

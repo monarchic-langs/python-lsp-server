@@ -3,7 +3,7 @@ name: Linux tests
 on:
   push:
     branches:
-      - develop
+      - monarchic
   workflow_dispatch:
 
 concurrency:
