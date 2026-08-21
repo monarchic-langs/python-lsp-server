@@ -6,6 +6,10 @@ on:
       - monarchic
   workflow_dispatch:
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   nix-ci:
     uses: monarchic-langs/.github/.github/workflows/nix-ci.yml@main
